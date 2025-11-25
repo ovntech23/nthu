@@ -1,0 +1,35 @@
+{
+  "name": "Nthungulu.com",
+  "short_name": "Nthungulu",
+  "description": "Our Sound, Our Voice, Our culture and Our Heritage",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#198A00",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["music", "entertainment"],
+  "screenshots": [],
+  "share_target": {
+    "action": "/",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
